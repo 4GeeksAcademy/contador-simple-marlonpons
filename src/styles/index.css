@@ -9,3 +9,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.unitShape, .logoBox{
+	flex: 1 1 auto;
+    min-width: 50px;
+	max-width: 80px;
+	aspect-ratio: 1 / 1.2;
+	background-color: #1a1a1a;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+
+
+.logo{
+    font-size: 2.5rem;
+    color: white;
+}
+
